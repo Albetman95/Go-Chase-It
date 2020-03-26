@@ -1,4 +1,4 @@
-# Welcome to Build my World :boom:
+# Welcome to GO Chase it :robot:
 
 In this project, I created two ROS packages inside my catkin_ws/src: the drive_bot and the ball_chaser. Here are the steps to design the robot, house it inside my world, and program it to chase white-colored balls: :ok_hand:
 
