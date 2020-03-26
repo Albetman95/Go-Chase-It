@@ -4,11 +4,11 @@ In this project, I created two ROS packages inside my catkin_ws/src: the drive_b
 
 ## Summary Tasks
 * drive_bot:
-- Create a my_robot ROS package to hold your robot, the white ball, and the world.
-- Designed a differential drive robot with the Unified Robot Description Format. Add two sensors to your robot: a lidar and a camera. Add Gazebo plugins for your robot’s differential drive, lidar, and camera. 
-- Placed the robot inside the world built in the Build My World project.
-- Added a white-colored ball to Gazebo world and save a new copy of this world.
-- The world.launch file should launch the world with the white-colored ball and your robot.
+  - Create a my_robot ROS package to hold your robot, the white ball, and the world.
+  - Designed a differential drive robot with the Unified Robot Description Format. Add two sensors to your robot: a lidar and a camera. Add Gazebo plugins for your robot’s differential drive, lidar, and camera. 
+  - Placed the robot inside the world built in the Build My World project.
+  - Added a white-colored ball to Gazebo world and save a new copy of this world.
+  - The world.launch file should launch the world with the white-colored ball and your robot.
 * ball_chaser: 
   - Created a ball_chaser ROS package to keep C++ nodes.
   - Write a drive_bot C++ node that will provide a ball_chaser/command_robot service to drive the robot by controlling its linear x and angular z velocities. The service should publish to the wheel joints and return back the requested velocities.
